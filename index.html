@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fabric Agent Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="chat-app">
+
+    <!-- Header -->
+    <div class="chat-header">
+      Fabric Data Agent
+    </div>
+
+    <!-- Chat messages -->
+    <div id="chat-container" class="chat-container"></div>
+
+    <!-- Input area -->
+    <div class="chat-input">
+      <input
+        id="userInput"
+        type="text"
+        placeholder="Type your message..."
+        autocomplete="off"
+      />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
